@@ -1,3 +1,4 @@
+![CI](https://github.com/umairirfan19/data-analytics-dashboard/actions/workflows/ci.yml/badge.svg)
 # Data Analytics Dashboard
 
 A portfolio project showcasing **Python, SQL, and Power BI** for data analytics, visualization, and insights.
