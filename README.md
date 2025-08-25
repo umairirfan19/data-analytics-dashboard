@@ -24,6 +24,8 @@ It’s designed to highlight data engineering, analysis, and visualization skill
 - Build static data visualizations using Matplotlib.
 - Create interactive dashboards in Power BI for deeper insights.
 - Document and validate data accuracy with testing.
+- 📂 Outputs are saved in the `scripts/data/raw/sql/visuals/outputs/` folder after running the visualization scripts.
+
 
 ---
 
