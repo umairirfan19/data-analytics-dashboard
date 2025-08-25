@@ -1,3 +1,4 @@
+![CI](https://github.com/umairirfan19/data-analytics-dashboard/actions/workflows/ci.yml/badge.svg)
 # Automated Testing and Reporting System
 
 ## 📌 Overview
