@@ -1,3 +1,4 @@
+from __future__ import annotations
 def clean_data(df: pd.DataFrame, output_path: str = None) -> pd.DataFrame:
     """
     Clean the dataframe and optionally save to CSV if output_path is provided.
