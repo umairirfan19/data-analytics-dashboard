@@ -19,7 +19,7 @@ def clean_data(df: pd.DataFrame, output_path: str = None) -> pd.DataFrame:
     - standardizes column names (lowercase, spaces -> underscores, trimmed)
     - trims whitespace in string columns
     - drops exact duplicate rows
-    - drops rows that are entirely NA
+    - drops rows that contain ANY null values
     - saves to CSV if output_path is given
     """
     out = df.copy()
@@ -30,9 +30,11 @@ def clean_data(df: pd.DataFrame, output_path: str = None) -> pd.DataFrame:
     # trim strings
     out = _strip_strings(out)
 
-    # drop duplicates and all-NA rows
+    # drop duplicates
     out = out.drop_duplicates()
-    out = out.dropna(how="all")
+
+    # ✅ drop rows that have ANY nulls
+    out = out.dropna(how="any")
 
     # save to CSV if output_path is passed
     if output_path:
