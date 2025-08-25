@@ -1,0 +1,13 @@
+date,product,category,region,units_sold,unit_price,discount,returned,customer_id
+2025-01-03,Notebook,Office,East,12,9.99,0.00,false,C001
+2025-01-05,Pen,Office,West,30,1.49,0.10,false,C002
+2025-01-07,Headphones,Electronics,North,5,49.99,0.15,false,C003
+2025-01-08,Mouse,Electronics,South,8,19.99,0.00,true,C004
+2025-01-09,Keyboard,Electronics,East,4,39.99,0.05,false,C005
+2025-01-11,Paper,Office,West,50,0.99,0.00,false,C006
+2025-01-12,Monitor,Electronics,North,2,129.99,0.10,false,C007
+2025-01-14,Stapler,Office,South,10,5.49,0.00,false,C008
+2025-01-15,Tablet,Electronics,East,1,249.99,0.20,false,C009
+2025-01-17,Markers,Office,North,15,2.99,0.00,false,C010
+2025-01-18,Webcam,Electronics,West,3,59.99,0.05,true,C011
+2025-01-19,Folder,Office,South,25,1.29,0.00,false,C012
